@@ -1,0 +1,2 @@
+100
+['/Users/vivo/.vim/bundles/dein/', 'Shougo/deoplete.nvim', 'Shougo/neocomplete.vim', 'Shougo/neosnippet-snippets', 'Shougo/neosnippet.vim', 'alvan/vim-closetag', 'fatih/vim-go', 'jiangmiao/auto-pairs', 'mxw/vim-jsx', 'pangloss/vim-javascript', 'roxma/nvim-yarp', 'roxma/vim-hug-neovim-rpc', 'scrooloose/nerdtree', 'vim-airline/vim-airline', 'vim-airline/vim-airline-themes', 'vim-syntastic/syntastic']

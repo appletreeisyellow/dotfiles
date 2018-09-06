@@ -10,7 +10,6 @@ alias ll='ls -l'
 alias c='clear'
 alias grep='grep --color -n -r'
 alias brewery='brew update && brew upgrade && brew cleanup'
-alias gco='git checkout'
 
 # PATH
 export GOPATH=~/go

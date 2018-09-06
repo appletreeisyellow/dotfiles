@@ -10,11 +10,13 @@ alias ll='ls -l'
 alias c='clear'
 alias grep='grep --color -n -r'
 alias brewery='brew update && brew upgrade && brew cleanup'
+alias gco='git checkout'
 
 # PATH
 export GOPATH=~/go
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/.npm-packages/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 ### command lines ###
 

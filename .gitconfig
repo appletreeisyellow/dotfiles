@@ -1,10 +1,12 @@
 # This is Git's per-user configuration file.
 [alias]
   a = add
-  p = push
+  b = branch
+  d = diff
   s = status -s
   co = checkout
-  cm = commit -m
+  cm = commit
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   remotes = remote -v
   branches = branch -a
+  update = remote update --prune # to keep the remote branches up-to-date

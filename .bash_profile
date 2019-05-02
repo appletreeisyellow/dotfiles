@@ -1,7 +1,7 @@
 # colors
 export PS1="\[\033[38;5;218m\]\u\[\033[m\]:\[\033[38;5;140m\]\w\[\033[m\]\$(parse_git_branch)\[\033[00m\]\n$ "
 export CLICOLOR=1
-export LSCOLORS=exfxcxdxbxegedabagacad
+export LSCOLORS=GxFxCxDxBxegedabagaced
 export TERM=screen-256color
 
 # Shortcuts

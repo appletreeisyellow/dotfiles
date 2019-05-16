@@ -10,6 +10,8 @@ alias ll='ls -l'
 alias c='clear'
 alias grep='grep --color -n -r'
 alias brewery='brew update && brew upgrade && brew cleanup'
+alias editb='vim ~/.bash_profile'
+alias sourceb='source ~/.bash_profile'
 
 # PATH
 export GOPATH=~/go
@@ -39,3 +41,4 @@ psqlcsv() {
 # iTerm 2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
+# Customized code

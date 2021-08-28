@@ -4,6 +4,9 @@ export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/.npm-packages/bin:$PATH"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Path to your oh-my-zsh installation.
+# export ZSH="/Users/vivo/.oh-my-zsh"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -77,10 +80,6 @@ source $ZSH/oh-my-zsh.sh
 # Remove username@computer in prompt line
 prompt_context() {}
 
-# AP Python Virtual Environments
-source ~/Library/Python/2.7/bin/virtualenvwrapper.sh
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/opt/python@2/bin/python2
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -111,5 +110,3 @@ alias brewery="brew update && brew upgrade && brew cleanup"
 
 # Customized aliases
 
-# Path to your oh-my-zsh installation.
-# export ZSH="/Users/vivo/.oh-my-zsh"

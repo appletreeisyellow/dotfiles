@@ -1,13 +1,22 @@
 # This is Git's per-user configuration file.
+[user]
+	name = 
+	email = 
 [alias]
-  a = add
-  b = branch
-  d = diff
-  s = status -s
-  co = checkout
-  cm = commit
-  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
-  remotes = remote -v
-  branches = branch -a
-  update = remote update --prune # to keep the remote branches up-to-date
-  who = shortlog -s --
+	a = add
+	b = branch
+	d = diff
+	s = status -s
+	co = checkout
+	cm = commit
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	remotes = remote -v
+	branches = branch -a
+	update = remote update --prune # to keep the remote branches up-to-date
+	who = shortlog -s --
+[pager]
+	branch = false
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
